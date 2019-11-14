@@ -1,0 +1,16 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node-modules"
+    ],
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "inlineSourceMap": true
+    }
+}

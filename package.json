@@ -1,0 +1,35 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Summary and Implementation of common data structures using TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbgrabbag/js-data-structures.git"
+  },
+  "keywords": [
+    "typescript",
+    "data-structures",
+    "job-interview"
+  ],
+  "author": "Ben Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbgrabbag/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/bbgrabbag/js-data-structures#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.7",
+    "uuid": "^3.3.3"
+  }
+}
